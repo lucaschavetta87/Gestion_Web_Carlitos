@@ -9,6 +9,9 @@ import Facturacion from '../components/Facturacion';
 import ClientesCC from '../components/ClientesCC'; 
 import MercadoLibre from '../components/MercadoLibre'; // Importamos el nuevo componente
 
+export const dynamic = 'force-dynamic';
+
+
 export default function SistemaGestionApp() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [user, setUser] = useState('');
